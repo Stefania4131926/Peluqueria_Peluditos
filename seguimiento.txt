@@ -5,7 +5,7 @@ Sólo el profesor actuará únicamente sobre este archivo, del resto del proyect
 No modificar ni borrar este archivo, ya que equivale a puntuar el proyecto con 0.
 ###
 
-1º mosificación:
+1º modificación:
 No hay ni licencia ni README.md
 No es una estructuta funcional MVC con 4 ficheros.
 No hay label.
