@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package modelo;
+package pelu_controlador;
 
 /**
  *
  * @author dam2
  */
-public class ClaseModelo {
+public class Pelu_Controlador {
     
 }
