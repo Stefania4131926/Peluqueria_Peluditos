@@ -13,3 +13,10 @@ No hay label.
 -> Refactoriza (cambia) los nombres de todas las clases y objetos que uses de forma que sean exclusivos tuyos y del proyecto (en el futuro no evaluaré nada con nombres genéricos automatizados).
 -> Modifica el README.md donde sean más explicativo sobre el objetivo del proyecto.
 -> Pon una licencia.
+
+
+2º modificación:
+Elimina la imagen, y debes tener 3 ventanas (la tercera es el JDialog):
+1-> presentación, no redimensionable (tamaño mediano), simulando la carga, y desaparece por tiempo.
+2-> Salta la principal, donde todo hay una botonera que es funcional en el sentido de mandar un mensaje por consola, y el botó "Ver Clientes" que lanza  un JDialog modificado donde muestra los clientes que hay y un botón para añadir más, así crece la lista, debe poder cargar los datos en el arranque.
+Todo los métodos y clases documentados.
