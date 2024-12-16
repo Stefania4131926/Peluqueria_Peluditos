@@ -31,7 +31,7 @@ public class VistaCarga1 extends javax.swing.JFrame {
                 jLabel1 = new javax.swing.JLabel();
                 numPorcentaje = new javax.swing.JLabel();
 
-                setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+                setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
                 setUndecorated(true);
 
                 jPanel1.setBackground(new java.awt.Color(102, 255, 255));
@@ -111,6 +111,7 @@ public class VistaCarga1 extends javax.swing.JFrame {
 		PantallaInicio ini = new PantallaInicio();
 		vc.setVisible(false);
 		ini.setVisible(true);
+		
 		
 		
 	}

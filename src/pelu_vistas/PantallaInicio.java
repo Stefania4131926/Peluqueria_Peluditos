@@ -30,6 +30,10 @@ public class PantallaInicio extends javax.swing.JFrame {
                 jPanel1 = new javax.swing.JPanel();
                 jLabel3 = new javax.swing.JLabel();
                 jPanel2 = new javax.swing.JPanel();
+                btnModificarCliente = new javax.swing.JButton();
+                btnVerClientes = new javax.swing.JButton();
+                jButton3 = new javax.swing.JButton();
+                jButton4 = new javax.swing.JButton();
                 jPanel3 = new javax.swing.JPanel();
                 jPanel4 = new javax.swing.JPanel();
                 jPanel5 = new javax.swing.JPanel();
@@ -51,16 +55,37 @@ public class PantallaInicio extends javax.swing.JFrame {
 
                 jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-                javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-                jPanel2.setLayout(jPanel2Layout);
-                jPanel2Layout.setHorizontalGroup(
-                        jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 720, Short.MAX_VALUE)
-                );
-                jPanel2Layout.setVerticalGroup(
-                        jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 100, Short.MAX_VALUE)
-                );
+                btnModificarCliente.setText("Modificar Clientes");
+                btnModificarCliente.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                btnModificarClienteActionPerformed(evt);
+                        }
+                });
+                jPanel2.add(btnModificarCliente);
+
+                btnVerClientes.setText("Ver Clientes");
+                btnVerClientes.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                btnVerClientesActionPerformed(evt);
+                        }
+                });
+                jPanel2.add(btnVerClientes);
+
+                jButton3.setText("Salir");
+                jButton3.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                jButton3ActionPerformed(evt);
+                        }
+                });
+                jPanel2.add(jButton3);
+
+                jButton4.setText("Añadir Cliente");
+                jButton4.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                jButton4ActionPerformed(evt);
+                        }
+                });
+                jPanel2.add(jButton4);
 
                 getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_END);
 
@@ -74,7 +99,7 @@ public class PantallaInicio extends javax.swing.JFrame {
                 );
                 jPanel3Layout.setVerticalGroup(
                         jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 357, Short.MAX_VALUE)
+                        .addGap(0, 424, Short.MAX_VALUE)
                 );
 
                 getContentPane().add(jPanel3, java.awt.BorderLayout.LINE_END);
@@ -89,7 +114,7 @@ public class PantallaInicio extends javax.swing.JFrame {
                 );
                 jPanel4Layout.setVerticalGroup(
                         jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 357, Short.MAX_VALUE)
+                        .addGap(0, 424, Short.MAX_VALUE)
                 );
 
                 getContentPane().add(jPanel4, java.awt.BorderLayout.LINE_START);
@@ -105,6 +130,24 @@ public class PantallaInicio extends javax.swing.JFrame {
                 pack();
                 setLocationRelativeTo(null);
         }// </editor-fold>//GEN-END:initComponents
+
+        private void btnModificarClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarClienteActionPerformed
+              System.out.println("Ha pulsado modificar clientes...");
+        }//GEN-LAST:event_btnModificarClienteActionPerformed
+
+        private void btnVerClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVerClientesActionPerformed
+		JDialogPeluqueria dialog = new JDialogPeluqueria(new javax.swing.JFrame(), true);
+		dialog.setVisible(true);
+		dialog.setLocationRelativeTo(null);
+        }//GEN-LAST:event_btnVerClientesActionPerformed
+
+        private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+                  System.out.println("Ha pulsado salir");
+        }//GEN-LAST:event_jButton3ActionPerformed
+
+        private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+               System.out.println("Ha pulsado añadir clientes");
+        }//GEN-LAST:event_jButton4ActionPerformed
 
 	/**
 	 * @param args the command line arguments
@@ -142,6 +185,10 @@ public class PantallaInicio extends javax.swing.JFrame {
 	}
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
+        private javax.swing.JButton btnModificarCliente;
+        private javax.swing.JButton btnVerClientes;
+        private javax.swing.JButton jButton3;
+        private javax.swing.JButton jButton4;
         private javax.swing.JLabel jLabel1;
         private javax.swing.JLabel jLabel2;
         private javax.swing.JLabel jLabel3;
