@@ -4,6 +4,9 @@
  */
 package peluqueria_peluditos;
 
+
+import pelu_vistas.VistaCarga1;
+
 /**
  *
  * @author dam2
@@ -15,6 +18,11 @@ public class Peluqueria_Peluditos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+	
+	
+
+	    
+		    
     }
     
 }
